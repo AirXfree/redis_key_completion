@@ -4,8 +4,10 @@ redis 5种key类型数据补齐【string、hash、set、zset、list】
 # 说明
 此脚本用于redis 未正常同步key进行补齐到目标集群。
 执行方式为：
+# 哨兵或者单点
 sentinel_key_completion.sh key.txt
 
+# cluster集群
 cluster_key_completion.sh key.txt
 
 # key.txt内容约定
